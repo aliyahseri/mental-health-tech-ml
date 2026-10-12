@@ -1,0 +1,50 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Secrets
+.env
+!.env.example
+
+# Data and model artifacts
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.npy
+*.npz
+*.faiss
+*.mat
+*.zip
+*.mp4
+
+# Project-specific data/output dirs
+data/*
+!data/README.md
+outputs/models/
+outputs/clustered_survey.csv
